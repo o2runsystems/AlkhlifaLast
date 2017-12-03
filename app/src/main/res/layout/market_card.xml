@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    card_view:cardCornerRadius="4dp"
+    android:id="@+id/market_card">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <ImageView
+            android:id="@+id/market_img"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/news"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/market_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_toEndOf="@id/market_img"
+            android:layout_marginStart="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/market_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:layout_toEndOf="@id/market_name"
+            android:textColor="#ff4081"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd"
+            />
+        <TextView
+            android:id="@+id/market_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="about"
+            android:layout_toEndOf="@id/market_img"
+            android:layout_below="@id/market_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+
+        <TextView
+            android:id="@+id/market_cat"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@id/market_img"
+            android:text="cat"
+            android:layout_below="@id/market_about"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="21dp"
+
+            />
+        <TextView
+            android:id="@+id/market_type"
+            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:text="type"
+            android:layout_toEndOf="@id/market_cat"
+            android:layout_below="@id/market_about"
+            android:layout_marginTop="21dp"
+            />
+
+        <TextView
+            android:id="@+id/market_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:layout_toEndOf="@id/market_type"
+            android:layout_below="@id/market_about"
+            android:layout_marginTop="21dp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:srcCompat="@drawable/ic_add"
+            android:layout_below="@id/market_time"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:srcCompat="@drawable/ic_delete"
+            android:layout_toEndOf="@id/imageView3"
+
+            android:layout_below="@id/market_time"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            />
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.o2runsystems.dev2.kh_fam.com.o2run.dev2.kh_fam.imglib"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/attachedimgchat"
+        android:icon="@drawable/attch"
+        android:title="attach"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.o2runsystems.dev2.kh_fam.about"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="420dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/aboutimage"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.504"
+        android:layout_gravity="center"
+        android:src="@drawable/aboutimage"
+        android:scaleType="centerCrop"
+        android:layout_weight="0.48" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="104dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="عائلة الخليفة"
+        android:textIsSelectable="true"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="385dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="الخليفة من المشارفة - من الوهبه  تنحدر أصولهاالي بني تميم و هي أصل الجزيرة العربيه  ومن أكبر عوائل. القصيم. ولهم شأن وصيت كبير في منطقة القصيم ومن هامات بني تميم    ولهم ترابط قوي مع قبيلة بني تميم ودور فعال ،ومساهمات مع القبيلة  سكن آل خليفة الشنانة و سكنت بهم فمنذ أن اشتراها جدنا خليفة بن منيع أولاها بالرعايه و الاهتمام حتي كبرت معه و أصبح لها إسم كبير بين بلدان المملكة وتشتهر بزراعة النخيل والرمان  والتين والخظروات  و زاد شأنها حين جاء دورها في مساندة الملك عبد العزيز رحمه الله في تدعيم ركائز الحكم السعودي وتوحيد المملكة  و لم يتردد او يتقاعس صغيرا او كبيرا . في مساندة القائد الملك عبدالعزيز وقد دارت أهم معركة هي  { معركة الشنانة }   وقائدها صقرالجزيرة الملك عبد العزيز رحمة الله بالقرب من  مرقب الشنانة و مازالت آثارها تتحدث عنها حتي الآن فبذلنا من مالنا و اولادنا و ارواحنا فدائا للملك و الوطن  الغالي   أنتهت المعركة  بأنكسار ابن الرشيد   و لأسرة الخليفة عدة مناسبات على إختلاف المجالات لا تقل اهميتها فهدفها زيادة  التلاحم والتواصل والتراحم وإعلاء شأن الاسرة  فاعتدنا كل شهر ان نلتقي لكي نلتمس فيه أحوال اسرة آلخليفة  و نلتقي مع براعمنا في الشهر مرتين و نعد لهم برامج و مسابقات و نقوم بتكريم المميزين من أبنائنا على مختلف الأصعدة و المراحل   و لنا لقاء دائم في عيد الفطر المبارك ثاني أيام العيد بقصرالشنانة ( الثريا ) و نقوم بتوزيع الجوائز على أبنائنا و بناتنا  وللأسرة صندوق خيري. ليخدم الأسر المحتاجة من الخليفة  وكما اشتهرت بمرقب الشنانة الشامخ وهو معلم من معالم القصيم الذي يحكي عن معركة الشنانة المجيدة وأمجاد أجدادنا الأبطال"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+
+</LinearLayout>
+
+    </ScrollView>

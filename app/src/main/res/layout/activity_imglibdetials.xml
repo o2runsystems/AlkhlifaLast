@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        tools:context="com.o2runsystems.dev2.kh_fam.imglibdetials">
+    <TextView
+            android:id="@+id/libimgdetTxtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="معاذ محسن عباس احمد"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            />
+
+   <android.support.v7.widget.CardView
+
+           android:layout_marginTop="12dp"
+           android:id="@+id/libimgDetCardimg"
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:layout_below="@id/libimgdetTxtName"
+           >
+
+       <ImageView
+               android:id="@+id/libimgdetImgPhoto"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+           android:scaleType="centerCrop"
+
+               />
+
+   </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/libimgdetCardsumrize"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@id/libimgDetCardimg"
+            >
+
+       <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               >
+           <TextView
+                   android:id="@+id/libimgdetSmraizedet"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="نبزه مختصره عنه :"
+                   android:layout_marginTop="7dp"
+                   android:layout_marginStart="5dp"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                   android:layout_marginBottom="10dp"
+                   android:layout_gravity="center_horizontal"
+                   />
+
+           <TextView
+
+                   android:id="@+id/libimgdetinfo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="شخص ذكي ومناسب للعملشخص ذكي ومناسب للعملشخص ذكي ومناسب للعملشخص ذكي ومناسب للعملشخص ذكي ومناسب للعمل "
+                   android:layout_marginTop="7dp"
+                   android:layout_marginStart="5dp"
+                   android:textSize="17sp"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                   android:layout_gravity="center_horizontal"
+                   />
+
+       </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

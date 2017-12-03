@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">عائلة الخليفة</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">الملف الشخصي</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">أسم المستخدم</string>
+    <string name="prompt_password">كلمة السر</string>
+    <string name="password_confirm">تاكيد كلمة السر</string>
+    <string name="action_sign_up">تسجيل</string>
+    <string name="action_sign_in">دخول</string>
+    <string name="update">تحديث</string>
+    <string name="Name">أسم الكريم</string>
+    <string name="phone">الجوال</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">كلمةالسر غير متطابقة</string>
+    <string name="error_field_required">يجب ادخال كافة الحقول اعلاه</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="gender">الجنس:</string>
+    <string name="pic">الصورة:</string>
+    <string name="upload">رفع صورة</string>
+    <string name="fakhz_prompt">الفخذ الرئيسي:</string>
+    <string name="check_username">هذا المستخدم موجود بالفعل في النظام</string>
+    <string name="add_seccuss">تمت الاضافة بنجاح !</string>
+    <string name="login_worng">خطأ في اسم المستخدم او كلمة المرور</string>
+    <string name="create_one">
+ليس لديك حساب حتى الآن؟ اصنع واحدا</string>
+    <string name="login">
+تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">
+كلمه السر</string>
+    <string name="events">مناسبات ووفيات</string>
+    <string name="news">الاخبار</string>
+    <string name="market">السوق</string>
+    <string name="photo">مكتبة الصور</string>
+    <string name="books">كتب</string>
+    <string name="alkhalifa_history">تاريخ عائلة الخليفة</string>
+    <string name="chat">الدردشة</string>
+    <string name="poetry">الشعر</string>
+    <string name="profilestr">البروفايلات</string>
+    <string name="voting">المستخدمين</string>
+    <string name="titel">titel</string>
+    <string name="market_phone">الهاتف:</string>
+    <string name="update_user">تعديل</string>
+    <string name="authorized">عفوا غير مصرح لك بالدخول لهذه الشاشة</string>
+    <string name="unauthorized">غير مصرح</string>
+    <string name="Authorized">مصرح</string>
+    <string name="manager">مدير</string>
+    <string name="coor">منسق</string>
+    <string name="mark">مسوق</string>
+
+    <string-array name="fakhz_arrays">
+        <item>ال محمد</item>
+        <item>العبد الله</item>
+        <item>المنيع</item>
+        <item>المحسن</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>ذكر</item>
+        <item> انثى</item>
+
+    </string-array>
+    <string name="action_reply">سسي</string>
+    <string name="action_share">يي</string>
+    <string name="avatar">يي</string>
+    <string name="body">يي</string>
+    <string name="dummy_button">ي</string>
+    <string name="dummy_content">يي</string>
+    <string name="hello_blank_fragment">ييي</string>
+    <string name="new_message_notification_placeholder_text_template">يي</string>
+    <string name="new_message_notification_title_template">ي</string>
+    <string name="time">يي</string>
+    <string name="title_activity_edit_permations">ي</string>
+    <string name="title_activity_fullscreen">يي</string>
+    <string name="send">إرسال</string>
+    <string name="share">مشاركة الاحداث</string>
+    <string name="updateuser">تم التعديل بنجاح !</string>
+    <string name="errorupdate">فشل التعديل  !</string>
+    <string name="signout">تسجيل خروج</string>
+    <string name="new_pic">تم نشر صورة جديدة</string>
+    <string name="discover">تم اكتشاف هاتف جديد  ....</string>
+    <string name="verify">هل تود التحقق من هذا الهاتف ؟</string>
+    <string name="y">نعم</string>
+    <string name="n">لا</string>
+    <string name="cancver">تم إلغاء تحققك</string>
+    <string name="txtverfify">سوف يتم التحقق من هاتفك خلال ٣٠ ثانية!</string>
+    <string name="txtverfify1">سوف يتم التحقق من هاتفك خلال  </string>
+    <string name="txtverfify2">  ثانية!</string>
+    <string name="txtping">التحقق من الهاتف</string>
+    <string name="verification_code_is">رمز تحققك هو </string>
+    <string name="verifiy">تحقق</string>
+    <string name="txtphone">سوف يتم ارسال رسالة نصية الي الرقم </string>
+    <string name="Send">إرسال</string>
+    <string name="wrong_ver">رقم تحقق خاطئ</string>
+    <string name="codetxt">رمز تحققك هو  </string>
+    <string name="sendback">تاكد من رقم هاتفك واعادة ارسال رسالة نصية مرة اخرى</string>
+    <string name="sendmesg">تم الارسال بنجاح</string>
+    <string name="filedsend">فشل الارسال </string>
+    <string name="verfied_seccuss">تم التحقق بنجاح !</string>
+    <string name="connet">الاجهزة المرتبطة</string>
+    <string name="sensor">لايوجد جهاز استشعار بصمات الأصابع</string>
+    <string name="fingauth">بصمة إذن التوثيق غير ممكنة</string>
+    <string name="rigsterfinger">تسجيل بصمة واحدة على الأقل في الإعدادات</string>
+    <string name="lockscreen"> شاشة أمن القفل غير ممكنة في إعدادات</string>
+    <string name="enterpasswordfingerprint">يرجي إدخال كلمة السر: </string>
+    <string name="passfingerprint"> كلمة السر</string>
+    <string name="worng"> كلمة السر خاطئة يرجي اعادة المحاولة مرة  بفتح الشاشة مرة اخري! </string>
+    <string name="ok">موافق</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">إعادة ارسال رسالة</string>
+
+
+</resources>

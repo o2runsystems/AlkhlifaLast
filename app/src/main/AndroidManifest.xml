@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.o2runsystems.dev2.kh_fam">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!-- def -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ConfigRealm"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+        <receiver android:name=".NetWorkREciver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".Login_activity" android:theme="@style/Login" />
+        <activity android:name=".Activity_Reg" android:theme="@style/post" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".imglib" />
+        <activity android:name=".imglibdetials" />
+        <activity android:name=".BookLib" />
+        <activity android:name=".chatScrren" />
+        <activity android:name=".imagezoom" />
+        <activity android:name=".show_market" />
+        <activity android:name=".ShowActivity" />
+        <activity
+            android:name=".ImgLibOprations"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".addbooklib"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/post"
+            />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/sp_style"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- mmaz ! -->
+                <!-- dede ! -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserPermestions" />
+        <activity
+            android:name=".PerMationsEditActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ProfileActivity" android:theme="@style/profile" />
+        <activity
+            android:name=".PostPublisher"
+            android:theme="@style/post"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MarketActivityPuplisher"
+            android:windowSoftInputMode="adjustResize"
+             android:theme="@style/post"
+            />
+        <activity android:name=".HistroyActivity" />
+        <activity android:name=".PorActivity" />
+
+        <service
+            android:name=".ChatFolder.ChatServices"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".addorifileuser" android:theme="@style/post" />
+        <activity android:name=".about" />
+        <activity android:name=".AddFamous" android:theme="@style/post" />
+        <activity android:name=".FamousShow" />
+        <activity android:name=".AddBox" android:theme="@style/post" />
+        <activity android:name=".BoxShow" />
+        <activity android:name=".AddReport" android:theme="@style/post" />
+        <activity android:name=".ReportShow" />
+        <activity android:name=".AddContact" android:theme="@style/post" />
+        <activity android:name=".ContactSho"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="10d5e7b8d6c1b95aba8c7d3386d7d4eb813e7c22" />
+    </application>
+
+</manifest>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.o2runsystems.dev2.kh_fam.ImgLibOprations"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+        >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/imglibToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#ffffff"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+        <EditText android:id="@+id/imglibName"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textPersonName"
+                  android:hint="الاسـم" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+        <EditText android:id="@+id/imglibSumrize"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textMultiLine"
+                  android:hint="نبزه مختصره"
+                />
+
+    </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+                android:id="@+id/imglibPhoto"
+                android:layout_marginTop="15dp"
+               android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/plholder"
+
+                />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/imglibfab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_add_a_photo_white_36dp"
+            />
+    <Button
+            android:id="@+id/imglibSaveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حفــظ"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+             android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
+</layout>

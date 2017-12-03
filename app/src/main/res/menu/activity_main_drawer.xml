@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_information"
+            android:title=" عن العائلة"/>
+
+        <item
+            android:id="@+id/his"
+            android:icon="@drawable/history"
+            android:title="تاريخ العائلة"
+            />
+
+        <item
+            android:id="@+id/famousmenu"
+            android:icon="@drawable/ic_star"
+            android:title=" اشهر رجال العائلة"/>
+
+        <!--<item-->
+            <!--android:id="@+id/mjls"-->
+            <!--android:icon="@drawable/ic_confrence"-->
+            <!--android:title="مجلس العائلة"/>-->
+
+        <item
+            android:id="@+id/box"
+            android:icon="@drawable/ic_dropbox"
+            android:title="الصناديق الخيرية"/>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_agenda"
+
+            android:title="الكتـب والمقالات"/>
+
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_report"
+            android:title="تقارير"/>
+
+
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_vote"
+            android:title="التصويت"/>
+
+
+
+        <item
+            android:id="@+id/vote"
+            android:icon="@drawable/ic_groups"
+            android:title="الاعضاء"/>
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_gallery"
+            android:title="مكتبة الصور"/>
+
+
+
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_chat"
+            android:title="الدردشات"/>
+
+
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_exit"
+            android:title="تسجيل الخروج"/>
+
+        <item
+            android:id="@+id/sug"
+            android:icon="@drawable/ic_suggtion"
+            android:title="اقتراحات"/>
+
+
+        <item
+            android:id="@+id/sug2"
+            android:icon="@drawable/ic_call"
+            android:title="اتصل بنا"/>
+
+
+
+
+    </group>
+
+
+
+</menu>

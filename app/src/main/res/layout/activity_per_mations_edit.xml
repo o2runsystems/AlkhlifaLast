@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_per_mations_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.o2runsystems.dev2.kh_fam.PerMationsEditActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/PerEdittoolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#ffffff"
+        />
+
+    <TextView android:id="@+id/nametxtforPer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الاسم كاملا"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+    <TextView android:id="@+id/phonetxtForper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="رقم االهاتف"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <TextView android:id="@+id/fkzper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الفخذ الرئيسي"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <TextView android:id="@+id/genderforper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الجنـس"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <TextView android:id="@+id/numberofkid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="numberofkid"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <TextView android:id="@+id/job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="job"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <TextView android:id="@+id/compny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="compny"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <TextView android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="state"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/picId"
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@color/cardview_dark_background"
+        />
+
+    <TextView android:id="@+id/experForper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="صلاحيته السابقه"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        />
+    <TextView android:id="@+id/selectper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اختر صلاحـيه المستخـدم"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+    <Spinner
+        android:id="@+id/spenrforPerm"
+        android:layout_marginTop="12dp"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        >
+
+    </Spinner>
+    <Button
+        android:id="@+id/btnsaveforper"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="حـــــــــفظ"
+        />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="حــــــــذف"
+        />
+
+</LinearLayout>
+    </ScrollView>
+</layout>
